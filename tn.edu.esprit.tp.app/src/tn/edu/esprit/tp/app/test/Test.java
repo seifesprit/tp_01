@@ -58,10 +58,12 @@ public class Test {
 		// 17- Ajouter dans la classe Chercheur la méthode comparer() qui
 		// permet de tester l’égalité entre deux chercheurs : public void
 		// comparer (Chercheur ch){…}
-        
+
 		// 18-
 		// 19- Modifier le numéro de l’ordinateur de l’objet chercheur1
+		chercheur.numero_ordinateur = 6;
 		// 20- Créer un objet chercheur3 sans paramètres
+		Chercheur chercheur3 = new Chercheur();
 		// 21- Ajouter un nom, un poste et un numéro de l’ordinateur à
 		// l’objet chercheur3
 		// 22- Créer deux Bureaux bureau1 et bureau2, chaque bureau contient 3
